@@ -3,7 +3,7 @@ package Tie::Static;
 use Exporter;
 @EXPORT_OK = 'static';
 @ISA = 'Exporter';
-$VERSION = 0.03;
+$VERSION = 0.04;
 
 use strict;
 use vars qw(%call_count);
@@ -251,7 +251,7 @@ http://www.perlmonks.org/index.pl?node_id=96832.
 
 =head1 AUTHOR AND COPYRIGHT
 
-Ben Tilly (ben_tilly@operamail.com)
+Ben Tilly (btilly@gmail.com)
 
 Copyright 2001-2003.  This may be modified and distributed
 on the same terms as Perl.
